@@ -1,0 +1,169 @@
+.ant-layout-sider-children {
+  margin-bottom: 200px;
+}
+
+.ant-menu-dark.ant-menu-inline,
+.ant-menu-dark.ant-menu-vertical,
+.ant-menu-dark.ant-menu-vertical-left,
+.ant-menu-dark.ant-menu-vertical-right {
+  // background: #a1050d !important;
+  background: #0E4A86 !important;
+}
+
+.menu-items-search {
+  border: 1px solid #0E4A86;
+  width: 100%;
+  height: 35px;
+  font-size: 18px;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background-color: grey !important;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  border: 1px solid #ffffff8f;
+  border-radius: 4px;
+  background-color: grey !important;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.notifications-count {
+  background-color: red;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px !important;
+  margin-top: 0px !important;
+}
+
+.support {
+  cursor: pointer;
+  flex: 1;
+
+  .img {
+    animation: blinker 2.5s linear infinite;
+    margin: 0 .8rem;
+
+    svg {
+      // path {
+      width: 30px;
+      height: 30px;
+      // }
+    }
+  }
+}
+
+.whatsapp-icon-container {
+  display: flex;
+  margin-left: 10px;
+}
+
+// Notification Menu
+.notifications-menu {
+  display: none;
+  background-color: #fff;
+  min-width: 390px;
+  width: auto;
+  max-height: 400px;
+  overflow: auto;
+  right: 10px;
+  top: 25px;
+  border-radius: 10px;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+  &.show {
+    display: flex;
+  }
+
+  .notification-heading {
+    border-bottom: 1.5px solid #e0e0e0;
+  }
+
+  .notification-items {
+    padding: 14px;
+    width: 100%;
+
+    .item {
+      cursor: pointer;
+      justify-content: space-between;
+
+      .lbl {
+        display: flex;
+        flex: 1;
+        font-weight: 500;
+        font-size: 17px;
+        flex-wrap: wrap;
+        line-height: 36px;
+      }
+
+      .datetime {}
+    }
+  }
+}
+
+.topBar_box{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 .7rem;
+}
+.topBar_action{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  #_header_welcome_message {
+    display: none;
+  }
+
+  #_header_Facing_assue_heading_main {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #_header_Facing_assue_heading {
+    display: none;
+  }
+}
+
+.message-icon {
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.notifications-count-container {
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 25px;
+  height: 20px;
+  color: white;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px !important;
+  margin-top: -15px !important;
+}

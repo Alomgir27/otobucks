@@ -1,0 +1,536 @@
+._my_wallet_add_money_card_main {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  height: 130px;
+}
+._my_wallet_add_money_btn {
+  background-color: none !important;
+  border: none !important;
+  background: none !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  text-decoration-line: underline !important;
+  text-transform: capitalize !important;
+  color: #303030 !important;
+}
+._my_wallet_add_money_btn_main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+._my_wallet_total_balance_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+._my_wallet_total_earning_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 18px;
+}
+._my_wallet_total_balance_circe_main {
+  width: 10px;
+  height: 10px;
+  background: #39d33f;
+  border-radius: 100px;
+}
+._my_wallet_total_earning_circe_main {
+  width: 10px;
+  height: 10px;
+  background: #ff9700;
+  border-radius: 100px;
+}
+._my_wallet_total_balance_price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #39d33f;
+  margin-left: 10px;
+}
+._my_wallet_total_earning_price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ff9700;
+  margin-left: 10px;
+}
+._my_wallet_total_balance_price_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #303030;
+}
+._my_wallet_card_main {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: auto;
+}
+._my_wallet_card_header_main {
+  border-bottom: 1px solid #e0e0e0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+  min-width: 800px;
+}
+._my_wallet_card_header_main2 {
+  border-bottom: 1px solid #e0e0e0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  margin-bottom: 10px;
+  min-width: 500px;
+}
+._my_wallet_list_headermain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  min-width: 800px;
+}
+._my_wallet_card_header_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #303030;
+}
+._my_wallet_visa_card_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  min-width: 500px;
+}
+._my_wallet_visa_card_main_selected {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  min-width: 500px;
+  border: 1px solid #0E4A86;
+  border-radius: 10px;
+}
+._my_wallet_visa__withdrawal_card_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 1px solid #3c4858;
+  box-sizing: border-box;
+  border-radius: 15px;
+  min-width: 500px;
+}
+._my_wallet_visa_card_part1_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+._my_wallet_visa_card_number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #303030;
+  margin-left: 10px;
+}
+._my_wallet_visa_card_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #303030;
+}
+._my_wallet_visa_card_exp_date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #303030;
+}
+._my_wallet_visa_card_holder_name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #303030;
+  margin-left: 10px;
+}
+._my_wallet_visa_card_edit_btn {
+  background-color: none !important;
+  border: none !important;
+  background: none !important;
+  padding: 5px !important;
+  margin: 0px 10px;
+}
+._my_wallet_visa_icon_main {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._my_wallet_Add_new_card_btn_main {
+  border-top: 1px solid #e0e0e0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  min-width: 500px;
+}
+._cards_modal_Add_new_card_btn_main {
+  border-top: 1px solid #e0e0e0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  min-width: 500px;
+}
+._cards_modal_pay_btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  min-width: 500px;
+}
+._my_wallet_Add_new_card_btn {
+  border: none !important;
+  background: none !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  text-align: right !important;
+  text-transform: uppercase !important;
+  color: #545454 !important;
+  display: flex;
+  justify-content: space-evenly;
+}
+._cards_modal_pay_btn {
+  background-color: #0E4A86 !important;
+  border: none !important;
+  background: none !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  text-align: right !important;
+  text-transform: uppercase !important;
+  color: #545454 !important;
+  display: flex;
+  width: 17%;
+  justify-content: space-evenly;
+}
+._my_wallet_withdraw_current_balannce_main {
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-top: 10px;
+  min-width: 500px;
+}
+._my_wallet_withdraw_current_balannce {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #000000;
+}
+._my_wallet_withdraw_current_balannce_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #6b6b6b;
+}
+._my_wallet_withdraw_withdraw_money_btn {
+  background: #0E4A86 !important;
+  border-radius: 5px !important;
+  border: none !important;
+  height: 35px !important;
+  padding: 0px 20px !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+._my_wallet_withdrawal_history_main {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-top: 20px;
+  overflow: auto;
+}
+._my_wallet_list_date_header_main {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  padding-left: 20px;
+}
+._my_wallet_pending_btn {
+  background: #ffd1b0 !important;
+  border-radius: 6px !important;
+  width: 150px !important;
+  height: 30px !important;
+  border: none !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  text-transform: capitalize !important;
+  color: #b84d00 !important;
+}
+._my_wallet_completed_btn {
+  background: #d2ffeb !important;
+  border-radius: 6px !important;
+  width: 150px !important;
+  height: 30px !important;
+  border: none !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  text-transform: capitalize !important;
+  color: #098b51 !important;
+}
+._my_wallet_cancelation_btn {
+  background: #ffb0b0 !important;
+  border-radius: 6px !important;
+  width: 150px !important;
+  height: 30px !important;
+  border: none !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  text-transform: capitalize !important;
+  color: #b80000 !important;
+}
+._my_wallet_list_date_header_status_main {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding-right: 20px;
+}
+._my_wallet_list_data_show_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  min-width: 800px;
+}
+@media only screen and (max-width: 384px) {
+  ._my_wallet_total_balance_price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+  ._my_wallet_total_balance_price_title {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  ._my_wallet_add_money_card_main {
+    padding: 10px;
+    height: 100px;
+  }
+  ._my_wallet_total_balance_price {
+    margin-bottom: 10px !important;
+  }
+  ._my_wallet_total_balance_circe_main {
+    margin-bottom: 10px !important;
+  }
+}
+@media only screen and (max-width: 360px) {
+  ._my_wallet_total_balance_price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+  ._my_wallet_total_balance_price_title {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  ._my_wallet_add_money_card_main {
+    padding: 10px;
+    height: 100px;
+  }
+  ._my_wallet_total_balance_price {
+    margin-bottom: 10px !important;
+  }
+  ._my_wallet_total_balance_circe_main {
+    margin-bottom: 10px !important;
+  }
+}
+
+.add-new-card {
+  .add-new-card-heading {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 16px 0;
+  }
+  .block {
+    padding: 30px;
+    .input-sec {
+      margin: 14px 0;
+      .lbl {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .txt {
+        color: #6b6b6b;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 10px;
+        width: 100%;
+        font-size: 18px;
+        min-height: 20px;
+      }
+    }
+    .double-fields {
+      .input-sec {
+        flex: 1;
+      }
+      .ml {
+        margin-left: 10px;
+      }
+      .mr {
+        margin-right: 10px;
+      }
+    }
+    .action {
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 20px;
+      .btn {
+        min-width: 240px;
+        color: #fff;
+        border-radius: 8px;
+        background: #e20001 !important;
+      }
+    }
+  }
+}
+.bank-name-and-account-holder-type {
+  width: 45%;
+}
+.bank-name-and-account-holder-type-container {
+  justify-content: space-between;
+}
+.radio-btns-container {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+}
+
+.delet-card {
+  .delet-card-heading {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 16px 0;
+  }
+  .block {
+    padding: 30px;
+
+    .action {
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      .btn {
+        min-width: 240px;
+        color: #fff;
+        border-radius: 8px;
+        background: #e20001 !important;
+      }
+    }
+  }
+}
+.loader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.smallbtn{
+  width : 30%;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #0E4A86 !important;
+}
+
+.smallbtn:disabled {
+  background-color: white !important;
+}
+
+._wallet_amount_field {
+  height: 41px;
+  margin-bottom: 24px;
+}
+
+._payment_loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d2ffeb !important;
+}
+.promotion-charges-text {
+  font-size: larger;
+  margin-bottom: 10px !important;
+}

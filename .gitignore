@@ -1,0 +1,5 @@
+node_modules
+build
+notes.txt
+.service-provider.zip
+.env

@@ -1,0 +1,484 @@
+._purchase_container {
+  padding: 30px 30px 30px 30px;
+}
+._invite_friends_heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #303030;
+}
+._invite_friends_sub_heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #303030;
+  opacity: 0.9;
+  margin-bottom: 20px !important;
+}
+._invite_friends_code_copy_main {
+  background: #ffffff;
+  border: 1px solid #a6a6a6;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+._invite_friends_code_copy_btn {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: flex-end;
+  color: #0e4a86;
+  background-color: none;
+  border: none;
+  background: none;
+}
+._invite_friends_code_copy_text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #0e4a86;
+  margin: 0;
+}
+._invite_friends_share_main {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+._invite_friends_share_heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #303030;
+}
+._invite_friends_facebook_btn {
+  background-color: none;
+  border: none;
+  background: none;
+  margin-right: 10px;
+}
+._invite_friends_image_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+._invite_friends_input_title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #303030;
+  margin-bottom: 10px !important;
+}
+._invite_friends_input {
+  font-family: 'Poppins' !important;
+  background: #ffffff !important;
+  border: none !important ;
+  border: 1px solid #a6a6a6 !important;
+  box-sizing: border-box !important;
+  border-radius: 5px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  color: rgba(117, 117, 117, 0.5);
+  width: 100% !important;
+}
+._services_search_input {
+  font-family: 'Poppins' !important;
+  background: #ffffff !important;
+  border: none !important ;
+  border: 1px solid #a6a6a6 !important;
+  box-sizing: border-box !important;
+  border-radius: 5px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: rgba(117, 117, 117, 0.5);
+  width: 100% !important;
+}
+._invite_friends_apply_btn {
+  background: #0e4a86 !important;
+  border-radius: 5px !important;
+  font-family: 'Poppins' !important;
+  height: 50px !important;
+  width: 100% !important;
+  border: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  line-height: 25px !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+}
+
+._invite_friends_list_main {
+  margin-top: 50px;
+  background-color: white;
+  overflow: auto;
+  width: 100% !important;
+}
+._invite_friends_list_headermain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+._invite_friends_list_header_id {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  min-width: 50px;
+}
+._invite_friends_list_header_id_title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #303030;
+}
+._invite_friends_list_header_date {
+  height: 50px;
+  width: 300px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+._invite_friends_list_header_name {
+  height: 50px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+}
+._invite_friends_list_header_social_media {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+}
+._invite_friends_list_data_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+._invite_friends_list_active_btn {
+  background: #d2ffeb !important;
+  border-radius: 6px !important;
+  width: 70% !important;
+  height: 30px !important;
+  border: none !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  text-transform: capitalize !important;
+  color: #098b51 !important;
+}
+._invite_friends_list_header_id_data {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #303030;
+}
+._invite_friends_list_profile_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+._invite_friends_list_header_name_data {
+  height: 50px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 300px;
+}
+._invite_friends_list_inactive_btn {
+  background: #ffb0b0 !important;
+  border-radius: 6px !important;
+  width: 70% !important;
+  height: 30px !important;
+  border: none !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  text-transform: capitalize !important;
+  color: #b80000 !important;
+}
+.Pagination_main {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  min-width: 500px;
+}
+
+//responsive
+@media only screen and (max-width: 1280px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: row;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: row;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 912px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: row;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 820px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: row;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 800px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: row;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 712px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: column;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 640px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: row;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 600px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: row;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 480px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: row;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 360px) {
+  ._invite_friends_code_copy_main {
+    width: 100%;
+    flex-direction: column;
+  }
+  ._invite_friends_share_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  ._invite_friends_image_main {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  ._invite_friends_sub_heading {
+    text-align: start;
+  }
+}
+.no-invites {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.wallet_input {
+  width: 50% !important;
+}
+
+._notifications_tile {
+  cursor: pointer;
+}

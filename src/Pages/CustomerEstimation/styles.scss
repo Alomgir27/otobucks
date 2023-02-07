@@ -1,0 +1,395 @@
+table {
+    width: 100%;
+    text-align: left;
+    border-radius: 2px 2px 0 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.ant-table table {
+    width: 100%;
+    text-align: left;
+    border-radius: 2px 2px 0 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.ant-table-container table > thead > tr:first-child th:first-child {
+    border-top-left-radius: 2px;
+}
+.ant-table-thead > tr > th {
+    position: relative;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.3s ease;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+    position: relative;
+    padding: 16px 16px;
+    overflow-wrap: break-word;
+}
+
+.ant-table-thead > tr > th {
+    color: white !important;
+    font-weight: bold;
+    background-color: #0E4A86 !important;
+}
+
+.ant-table-content{
+    margin-top: 20px;
+}
+
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+    position: relative;
+    padding: 16px 16px;
+    overflow-wrap: break-word;
+}
+
+.margin-table{
+    float: right;
+    width:50%;
+}
+
+.save-submit{
+    justify-content: center;
+    align-items: center;
+}
+
+.save-submit:disabled {
+  color: white !important;
+}
+
+.save-submit button {
+    // margin-left: 25%;
+    position: relative;
+    margin-top: 10%;
+    margin-left: -20%;
+}
+
+.wrapperSubtotal{
+    width:100%;
+}
+
+.ant-table-tbody2 .second{
+    text-align: right;
+}
+
+.txt-input{
+    border: 1px solid #EDEDED;
+    height:40px;
+    width:100%;
+    padding-left:5px;
+    overflow-y: scroll;
+}
+
+._purchase_search_input2{
+    border: 1px solid #EAEAEA !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+    font-family: "Poppins";
+    font-size: 18px !important;
+    color: #b1b1b1 !important;
+    font-weight: 400;
+}
+
+.customer-wrap-content {
+    flex:1;
+    flex-direction: row;
+}
+
+.customer-left-content {
+    width:80%;
+    flex-direction: column;
+    float:left
+}
+
+.customer-right-content {
+    width:20%;
+    flex-direction: column;
+    float:left
+}
+
+.customer-description {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.third {
+    text-align: right !important;
+}
+
+.three-col-wrap {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20;
+}
+
+.three-col-left {
+
+}
+
+.three-col-left img {
+    margin-top: -35px;
+    padding-left: 20%;
+}
+
+.three-col-middle {
+    justify-content: center;
+    text-align: left;
+    padding-left: 50%;
+}
+
+.three-col-last {
+    justify-content: center;
+    text-align: right;
+}
+
+.customer-estimation{
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.users-wrapper div {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+}
+
+// ._pay_btn {
+//   color: white;
+// }
+
+._pay_btn_completed {
+  background-color: green !important;
+  width : 100% !important;
+  color: white !important;
+}
+._pay_btn_pending {
+  background-color: yellow !important;
+  width: 100% !important;
+  color: black !important;
+  cursor: pointer;
+}
+
+._pay_btn_cancelled {
+  background-color: red !important;
+  width: 100% !important;
+  color: white !important;
+}
+
+._actions_container {
+  display: flex;
+  align-items: center
+}
+
+.export-dropdown {
+    width: 15%;
+    margin-top: 0%;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.users-wrapper-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p30 {
+    padding: 30px;
+}
+
+.img-tag {
+    width:300px;
+}
+
+._purchase__search_main2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 37px;
+    background: #ffffff;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0px 4px;
+    margin-bottom: 20px !important;
+}
+
+._purchase__search_main2 .ant-input{
+    padding: 2px 6px !important;
+}
+
+.ant-input {
+    border: 1px solid #EAEAEA !important;
+}
+
+.input-img {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    visibility: hidden;
+    opacity: 0;
+    display: none !important;
+  }
+  .img-preview {
+    width: 370px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 1px solid #e0e0e0;
+    .img {
+      //width: 100%;
+      height: 100%;
+    }
+    .cross-icon {
+      z-index: 10;
+      top: 0px;
+      background: #0E4A86;
+      padding: 5px;
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  .btn-select-img {
+    z-index: 10;
+    color: #000;
+    margin: 20px 0;
+    min-height: 40px;
+    min-width: 370px;
+    border-radius: 7px;
+    background: #FFF;
+  }
+
+
+  .save-changes {
+    justify-content:center;
+    align-items:center;
+    display:flex;
+  }
+
+  .mt30 {
+    margin-top: 30px;
+  }
+
+  .mb300 {
+    margin-bottom: 300px;
+  }
+
+  ._create_estimation_btn {
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .estimations-form-wrapper {
+    padding: 30px;
+  }
+  .header-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .go-back-btn {
+    padding-bottom: 10px;
+    cursor: pointer
+  }
+  .invoice-date {
+    width: 100%;
+  }
+  .title-input-field {
+    width: 15%;
+    padding-right: 0
+  }
+  .description-input-field {
+    width: 26%;
+    padding-right: 0
+  }
+  .discount-btn {
+    width: 50px;
+  }
+  ._estimation_settings_container {
+    padding: 30px;
+  }
+  ._estimation_settings_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center,
+  }
+  ._tax_invoice_text {
+    margin-top: 20px;
+  }
+  ._upload_image-box {
+    width: 300px
+  }
+  ._settings_uploaded_logo {
+    max-height: 300px;
+    max-width: 300px
+  }
+  .action-icons {
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+    font-size:x-large ;
+    color: grey;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  ._settings_img_spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  }
+  ._image_close_icon {
+    background-color: white;
+    border-radius: 14px;
+    position: relative;
+    height: 25px;
+    top:35px;
+    left: 72px;
+    margin-top: -30px;
+  }
+  ._settings_loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  ._google_map_container {
+    height: 40vh;
+    width: 100%;
+  }
+  .estimation-main-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-container{
+    display: flex;
+    justify-content: space-between;
+    padding : 0 50px
+  }
+  .settings-image{
+    width : 150px;
+    height: 100px;
+    margin-top: -32px;
+  }

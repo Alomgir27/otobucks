@@ -1,0 +1,58 @@
+.forget-password-otp {
+  img {
+    margin-top: 2em !important;
+  }
+}
+.forget-password-OTPVerify {
+  justify-content: center;
+  margin-bottom: 1em;
+  input {
+    border: 1px solid transparent;
+    background-color: #d3d3d3;
+  }
+}
+.forget-password-emailIcon {
+  width: 200px;
+}
+
+.forget-password-otp-submit {
+  background-color: #c23625;
+  color: white;
+  font-weight: 700;
+  padding: 0.8em 10%;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  margin: 1em;
+}
+.forget-password-otp-submit:hover {
+  color: white !important;
+}
+
+// Password Reset Icon
+
+.forget-password-lockIcon {
+  width: 130px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.forget-password-reset-submit {
+  background-color: #c23625;
+  color: white;
+  font-weight: 700;
+  padding: 0.8em 4em;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+.password-reset-form-button {
+  padding: 0px 3em !important;
+}
+.password-field {
+  display : flex;
+  justify-content : center;
+  align-content: middle;
+  margin-top: 10px;
+  text-align: left
+}

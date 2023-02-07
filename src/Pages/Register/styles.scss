@@ -1,0 +1,58 @@
+#register {
+  height: 100vh;
+  width: -webkit-fill-available;
+
+  .heading{
+    font-size: 1.5rem;
+    padding: .4rem 0;
+  }
+
+  .sidebar_box {
+    width: -webkit-fill-available;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+    .logo_box {
+      width: 200px;
+
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .sidebar_text{
+      color: white;
+      text-align: center;
+      padding: 0 3rem;
+    }
+  }
+
+  .heading_2 {
+    color: #0E4A86;
+    position: relative;
+    top: 0;
+  }
+
+  .main {
+    background-color: #146CC4;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .ant-input {
+    border: none !important;
+  }
+
+  .ant-spin-dot-item {
+    background-color: #0E4A86;
+  }
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: transparent !important;
+}

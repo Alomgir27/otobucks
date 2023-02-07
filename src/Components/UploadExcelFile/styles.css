@@ -1,0 +1,12 @@
+.uploadBox {
+  height: 45px;
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #0E4A86;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.upload-file-btn{
+  width: 134px;
+}

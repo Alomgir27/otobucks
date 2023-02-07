@@ -1,0 +1,25 @@
+version: 0.2
+run-as: root
+
+phases:
+  install:
+    commands:
+      - echo runtime installed
+      - n 12
+  pre_build:
+    commands:
+      - rm -rf node_modules   
+      - rm -rf build/
+      - npm cache clean --force
+      - echo installing source npm dependencies
+      - npm install
+  build:
+    commands: 
+      - echo bilding
+      - export NODE_OPTIONS="--max-old-space-size=3072"
+      - npm run build
+  post_build:
+    commands:
+      - echo build complete on `date`
+      - aws s3 sync ./build s3://service-providers.otobucks.com/
+      - aws cloudfront create-invalidation --distribution-id E385SA9BSDGPT9 --paths '/*'

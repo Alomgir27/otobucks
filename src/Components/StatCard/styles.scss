@@ -1,0 +1,18 @@
+#statCard {
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon {
+  margin: 1.5em 0px;
+}
+.data-card {
+  h4 {
+    font-size: 18px !important;
+    color: black;
+
+    @media only screen and (max-width:550px) {
+      font-size: 12px !important;
+    }
+  }
+}

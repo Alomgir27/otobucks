@@ -1,0 +1,189 @@
+.cs-message--outgoing .cs-message__sent-time {
+  display: inline;
+}
+
+.cs-message--incoming .cs-message__sent-time {
+  display: inline;
+}
+
+.cs-message-input__content-editor-wrapper {
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.cs-message-input__content-editor {
+  color: black;
+}
+
+.cs-message-input__content-editor[data-placeholder]:empty:before {
+  color: black;
+}
+
+.cs-message-input__content-editor-container {
+  background-color: white;
+}
+
+.cs-message-input__content-editor {
+  background-color: white;
+}
+
+.cs-button--send {
+  color: #a60000;
+  background-color: transparent;
+}
+
+.cs-message--outgoing .cs-message__content {
+  background-color: grey;
+  opacity: 0.8;
+  color: black;
+  font-weight: bold;
+}
+
+.cs-message--incoming .cs-message__content {
+  color: black;
+  background-color: grey;
+  font-weight: bold;
+}
+
+.inbox-header {
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f6fbff;
+  font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  flex-shrink: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border-top: solid 0px #d1dbe3;
+  border-right: solid 0px #d1dbe3;
+  border-bottom: solid 1px #d1dbe3;
+  border-left: solid 0px #d1dbe3;
+  padding: 0.6em 0.9em;
+}
+
+.emoji-picker {
+  /* position: absolute;
+  bottom: 60px;
+  right: 440px; */
+}
+
+.chat-button {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  color: #a60000 !important;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.7em;
+  margin: 0.1em 0.2em;
+  padding: 0.2em 0.7em;
+  outline: none;
+  font-size: 1em;
+  line-height: 1.5;
+  cursor: pointer;
+  margin-top: 9px;
+}
+
+.btn-margin {
+  margin-top: 6px;
+}
+
+.chat-button:hover:not(:disabled) {
+  opacity: 0.6;
+}
+
+.cs-button {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  color: #a60000;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.7em;
+  margin: 0.1em 0.2em;
+  padding: 0.2em 0.7em;
+  outline: none;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.cs-message--incoming .cs-message__content {
+  background-color: #dfd6ff;
+  color: rgb(119, 119, 119);
+}
+
+.cs-message--outgoing .cs-message__content {
+  background-color: #0E4A86;
+  color: white;
+}
+
+.message-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-status-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* margin-left: 5px; */
+}
+
+.last-activity-time {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.last-seen {
+  color: rgb(8, 206, 8);
+}
+
+.unread-messages-count {
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+  background-color: rgb(8, 206, 8);
+  width: 40%;
+  border-radius: 10px;
+  color: white;
+}
+
+.double-tick-icon {
+  height: 18px;
+  width: 18px;
+}
+
+.chat-img {
+  width: 250px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: .2rem;
+}
+
+.cs-message__content:has(.chat-img) {
+  background-color: #0E4A86;
+  padding: 0;
+  border-radius: .2rem;
+  overflow: hidden;
+  border: 4px solid #0E4A86;
+}
+
+.chat-link {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_message{
+  margin-right: 25px;
+}

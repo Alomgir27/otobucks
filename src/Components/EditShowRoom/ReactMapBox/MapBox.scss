@@ -1,0 +1,20 @@
+.map_box_container{
+    width: -webkit-fill-available;
+    height: 400px;
+    position: relative;
+
+    .current_location_box{
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 100;
+        border-radius: .2rem;
+    }
+}

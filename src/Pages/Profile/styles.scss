@@ -1,0 +1,47 @@
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 1px solid #e0e0e0 !important;
+}
+
+.service-header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30px;
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+
+  .left2 {
+    flex: 1;
+    .pic2 {
+      .img2 {
+        width: 108px;
+        height: 110px;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+.not-provided {
+  color: red;
+}
+.edit-documents-icon {
+  cursor: pointer;
+}
+
+.update-password {
+  background: 'none';
+  border: 'none';
+  border-radius: 0;
+}
+
+.char-counter {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+textarea {
+  position: relative;
+}
